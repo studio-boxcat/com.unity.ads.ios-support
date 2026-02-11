@@ -1,3 +1,4 @@
+#if UNITY_IOS || UNITY_EDITOR
 using System;
 using UnityEngine;
 using System.Runtime.InteropServices;
@@ -74,3 +75,5 @@ namespace Unity.Advertisement.IosSupport
         
     }
 }
+
+#endif
